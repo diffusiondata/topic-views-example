@@ -1,0 +1,28 @@
+{
+  "name": "topic-views-example",
+  "version": "1.0.0",
+  "description": "An example control client to a topic tree of real foreign exchange prices",
+  "scripts": {
+    "start": "ts-node ./publish-fx.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushtechnology/topic-views-example.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pushtechnology/topic-views-example/issues"
+  },
+  "homepage": "https://github.com/pushtechnology/topic-views-example#readme",
+  "devDependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "@types/request": "^2.48.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "diffusion": "^6.3.0",
+    "request": "^2.88.0"
+  }
+}
