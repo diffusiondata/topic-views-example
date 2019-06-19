@@ -15,7 +15,9 @@ const optionDefinitions = [
   ];
 
 const options = commandLineArgs(optionDefinitions);
-const spec = new diffusion.topics.TopicSpecification(diffusion.topics.TopicType.JSON);
+const spec = new diffusion.topics.TopicSpecification(diffusion.topics.TopicType.JSON, {
+    COMPRESSION: 'false'
+});
 
 function placeTrueFxRequest(session: diffusion.Session, topicRoot: string) {
 	request({
