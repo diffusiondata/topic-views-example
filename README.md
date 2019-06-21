@@ -1,6 +1,7 @@
 # topic-views-example
 
-An example Diffusion client that builds a topic tree of real foreign exchange prices.
+An example Diffusion client that builds a topic tree of real foreign exchange prices, 
+as refered to in the tutorial https://www.pushtechnology.com/blog/tutorial/topic-views
 
 ## Installation
 
