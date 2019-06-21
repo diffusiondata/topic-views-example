@@ -53,7 +53,7 @@ function processCurrencyPairs(csvData: string): any[] {
             high, low, open] = line.split(",");
 
 		return {
-			pairName: pairName.replace('\/', '⁄'), // Unicode trickery
+			pairName: pairName.replace('\/', ':'),
 			timestamp: millis,
 			bid: {big: bidBig, points: bidPoints},
 			offer: {big: offerBig, points: offerPoints},
